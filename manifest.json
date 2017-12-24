@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Getting started example",
+  "description": "This extension counts the ranking of your video in YouTube",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Video Ranking"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://www.YouTube.com/*"
+  ]
+}
